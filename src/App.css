@@ -1,38 +1,418 @@
-.App {
-  text-align: center;
+@font-face 
+{
+  font-family: "Nunito";
+  src: url("../public/fonts/Nunito.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* 
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html 
+{
+  font-size: 67.5%;
+  font-family: "Nunito";
 }
 
-.App-header {
-  background-color: #282c34;
+body 
+{ 
+  background-color: #e0ebf2; 
+}
+
+.App
+{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.main 
+{
+ 
+  margin-left: 300px;
+  padding: 80px 120px 120px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: #203743;
+}
+
+.main ul
+{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header
+{
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.footer
+{
+  background-color: #203743;
+  margin-top: auto;
+  margin-left: 300px;
+  padding: 50px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-around;
+  color: #eee8a9;
+}
+
+.footer > div
+{
+  display: flex;
+  gap: 2vw;
+}
+
+.footer > div > div
+{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.footer > div > a 
+{
+  color: inherit;
+}
+.footer > div > a:hover
+{
+  color: #c6be5c;
+}
+
+h2
+{
+  margin: 30px 0;
+  font-size: 4.0rem;
+}
+
+h3
+{
+  font-size: 2.8rem;
+}
+a{
+font-size: 2.0rem;
+}
+
+li
+{
+  font-size: 2.0rem;
+}
+
+p
+{
+  font-size: 2.0rem;
+}
+
+.gallery
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.gallery img
+{
+  width: 20vw;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.spenden
+{
+  align-items: flex-start;
+}
+
+.paypal
+{
+  display: flex;
+  flex-direction: column;
+}
+.paypal > div
+{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+hr 
+{
+  width: 100%;
+}
+
+.spenden h3
+{
+  margin-bottom: 40px;
+}
+.pate
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} 
+.pate a 
+{
+  margin-top: 50px;
+}
+
+.sponsoring
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsoring > div
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+
+}
+.sponsoring > div > div
+{
+  width: 75%;
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-left: 1px solid black;
+
+}
+
+.sponsoring > div > iframe 
+{
+  margin: auto;
+  justify-self: center;
+}
+.sponsoring > div > img
+{
+  width: 200px;
+  margin: auto;
+  justify-self: center;
+  object-fit: contain;
+}
+ .vermittlung
+{
+  width: 100%;
+}
+
+.vermittlung a
+{
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vermittlung > a > div
+{
+  display: flex;
+  border-radius: 5px;
+  width: 60%;
+  margin: 20px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vermittlung > a:hover > div
+{
+  width: 61%;
+  font-weight: bold;
+}
+
+.vermittlung > a > div > img
+{
+  justify-self: flex-start;
+  border-radius: 5px 0 0 5px;
+}
+.vermittlung > a > div > p
+{
+  justify-self: flex-end;
+  margin-right: 40px;
+}
+
+.news
+{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.berichte
+{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.berichte > a
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+.berichte > a > p
+{
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid rgb(149, 149, 149);
+  border-radius: 20px;
+}
+
+.berichte > a:hover > p
+{
+  background-color:#9fcfe7;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.spendenaufkommen
+{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.spendenaufkommen > div
+{
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  border-bottom: 0;
+}
+
+.spendenaufkommen > div > div
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: solid 1px black;
+}
+
+.partner
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black 1px;
+}
+
+.partner > div
+{
+  width: 100%;
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner div a img
+{
+  max-width: 800px;
+  max-height: 100px;
+}
+
+.blue
+{
+color: #5c94b4;
+font-size: 1.8rem;
+}
+
+.partner2
+{
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.links
+{
+font-size: 3.6rem;
+font-weight: bold;
+}
+.mitglied > p
+{
+ width: 80%;
+}
+
+.mitglied > div{
+  text-align: center;
+}
+.mitgliedschaft
+{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+  border-bottom: 0;
+  width: 60%;
+}
+.mitgliedschaft > div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid black 1px;
+}
+
+.mitgliedschaft > div > p 
+{
+  width: 50%;
+  text-align: left;
+}
+
+.mitgliedschaft > div > p:nth-child(2) {
+  text-align: center;
+}
+.mitgliedschaft > div > hr
+{
+  width: 1px;
+  height: 45px;
+}
+
+.impressum
+{
+  align-items: flex-start;
+}
+.impressum h2
+{
+  align-self: center;
+}
+.impressum div h3
+{
+  margin-bottom: 10px;
+}
+
+.wunsch
+{
+  text-align: center;
+}
+.wunsch > div
+{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 70%;
+}
+
+.wunsch > div > a > p{
+  margin: 20px;
 }

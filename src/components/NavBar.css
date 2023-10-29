@@ -1,0 +1,78 @@
+.navbar
+{
+    z-index: 2;
+    background-color: white;
+    position: fixed;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+
+}
+
+.navbar > div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    gap: 15px;
+}
+.navbar div div
+{
+    position: relative;
+}
+.navbar div div div
+{
+    position: absolute;
+    width: 230px;
+    top: 0px;
+    left: 230px;
+    background-color: #66b2d9;
+    border-radius: 12px;
+}
+.navbar div div div a p
+{
+    font-size: 1.8rem;
+    width: 150;
+}
+
+.navbar img 
+{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+ .navbar div a
+{
+    text-decoration: none;
+} 
+
+.navbar div a:visited
+{
+    color: initial;
+}
+.navbar div a:link
+{
+    color: inherit;
+}
+
+.navbar div a p
+{
+    color: white;
+    width: 230px;
+    padding: 10px 0;
+    font-size: 2.8rem; 
+    text-align: center;
+    text-shadow: -1px -1px 0 #3d9bc7, 1px -1px 0 #3d9bc7, -1px 1px 0 #1c6080, 1px 1px 0 #3d9bc7;
+    background-color: #66b2d9;
+    border-radius: 12px;
+}
+
+.navbar div a p:hover
+{
+    background-color: #549EC3;
+}
