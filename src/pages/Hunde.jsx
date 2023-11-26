@@ -11,7 +11,7 @@ const Hunde = () => {
           <div>            <p>
             Hier finden Sie die Hunde unseres griechischen Partnervereins Animal Protection auf Aegina, die ein liebevolles Zuhause suchen.
             </p>
-            <p>Warum einen Hund aus Griechenland, und was muss man beachten? Bitte lesen Sie zuvor die Informationen auf der Seite von Animal Protection: *vor der Adoption*</p>
+            <p>Warum einen Hund aus Griechenland, und was muss man beachten? Bitte lesen Sie zuvor die Informationen auf der Seite von Animal Protection: <a href="https://www.faza-aegina.de/vermittlung.html">*vor der Adoption*</a></p>
             <p>Klicken Sie auf die Bilder, um die Hunde kennenzulernen, die derzeit "reisefertig" auf Aegina oder auf Pflegestellen leben und auf ihr neues Zuhause warten:</p></div>
             <div className="vermittlung">
             <a href="https://www.faza-aegina.de/vermittlung/welpen-und-junghunde.html?status=junghund" target="_blank" rel="noopener noreferrer"><div><img src="/images/Welpe1.jpg" alt="Welpen" /><p>Welpen und Junghunde</p></div></a>

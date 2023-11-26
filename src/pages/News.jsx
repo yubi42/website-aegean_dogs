@@ -13,7 +13,7 @@ const News = () => {
       />
       <h2>Neues von Aegean Dogs</h2>
       <div className="news">
-        <p><b>Oktober 2023:</b></p>
+        <p><b>November 2023:</b></p>
         <p>
           Wir haben unsere Homepage überarbeitet. Weiterhin begrüßen wir unseren
           neuen Webmaster, <b>Elke Börner</b>. Wir bedanken uns bei Sylvia Rottmann für

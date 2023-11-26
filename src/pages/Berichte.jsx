@@ -19,8 +19,9 @@ const Berichte = () => {
 
       <div className="berichte">
         {berichte.map((x,i) => (
-           <a key={i} href={`/documents/${x.pdf}`} target="_blank" rel="noopener noreferrer"><p>{x.text}</p></a>
-        ))}
+          <div>
+           <a key={i} href={`/documents/${x.pdf}`} target="_blank" rel="noopener noreferrer"><p>{x.text}</p></a><p>{x.datum}</p>
+        </div>))}
       </div>
     </div> );
 }

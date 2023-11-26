@@ -1,5 +1,6 @@
 {
   "name": "aegean-dogs",
+  "homepage": "https://www.aegean-dogs.de",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

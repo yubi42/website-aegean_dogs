@@ -19,7 +19,7 @@ const UeberUns = () => {
             Tierschutzgesetzes zur sachgemäßen Vermittlung von Tieren.
           </p>
           <p>0170 - 472 2618</p>
-          <a href="mailto:vorsitz@aegean-dogs.com">E-mail</a>
+          <a href="mailto:vorsitz@aegean-dogs.de">E-mail</a>
         </div>
         <div className="image">
           <img src="/images/foto-matil.jpg" alt="Manuela Tillack-Lübke" />
@@ -30,7 +30,7 @@ const UeberUns = () => {
           <h2>Stellvertretender Vorsitzender</h2>
           <h3>Rainer Kopacek</h3>
           <p>0171 - 213 3081</p>
-          <a href="mailto:stellv-vorsitz@aegean-dogs.com">E-mail</a>
+          <a href="mailto:stellv-vorsitz@aegean-dogs.de">E-mail</a>
         </div>
         <div className="image">
           <img src="/images/foto-rainer.jpg" alt="Rainer Kopacek" />
@@ -41,7 +41,7 @@ const UeberUns = () => {
           <h2>Schriftführerin</h2>
           <h3>Christiane Kopacek</h3>
           <p>0171 - 956 3419</p>
-          <a href="mailto:schriftfuehrer@aegean-dogs.com">E-mail</a>
+          <a href="mailto:schriftfuehrer@aegean-dogs.de">E-mail</a>
         </div>
         <div className="image">
           <img src="/images/foto-christiane.jpg" alt="Aegean Dogs Loo" />
@@ -52,7 +52,7 @@ const UeberUns = () => {
           <h2>Kassenwartin</h2>
           <h3>Janine Klatt</h3>
           <p>0173 - 462 6221</p>
-          <a href="mailto:kassenwart@aegean-dogs.com">E-mail</a>
+          <a href="mailto:kassenwart@aegean-dogs.de">E-mail</a>
         </div>
         <div className="image">
           <img src="/images/foto-janine.jpg" alt="Aegean Dogs Loo" />
@@ -62,10 +62,11 @@ const UeberUns = () => {
         <div>
           <h2>Webmaster</h2>
           <h3>Elke Börner</h3>
-          <a href="mailto:webmaster@aegean-dogs.com">E-mail</a>
+          <p>01578 - 815 6736</p>
+          <a href="mailto:webmaster@aegean-dogs.de">E-mail</a>
         </div>
         <div className="image">
-          <img src="" alt="Elke Börner" />
+          <img src="/images/foto-elke.jpg" alt="Elke Börner" />
         </div>
       </div>
     </div>

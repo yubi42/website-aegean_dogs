@@ -57,7 +57,8 @@ const Willkommen = () => {
           Arbeit unterstützen würden. Ob viel oder wenig, tatkräftig,
           Sachspenden oder mit Geld – jede Hilfe ist willkommen!
         </p>
-      
+        <p>Um Neues rund um das Tierheim auf Aegina zu erfahren, besucht uns gerne <a href="https://www.facebook.com/groups/3201566493227186/"  target="_blank" rel="noopener noreferrer">hier</a>. <br></br><br></br>
+        Oder in unserer Facebook-Gruppe: <a href="https://www.facebook.com/groups/209310742532999/"  target="_blank" rel="noopener noreferrer">Freunde von Animal Protection</a>.</p>
     </div>
   );
 };

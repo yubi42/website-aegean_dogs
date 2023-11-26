@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;    gap: 15px;
+    margin-bottom: 10px;
 }
 .navbar div div
 {
@@ -41,7 +42,7 @@
 
 .navbar img 
 {
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
 
 }

@@ -12,7 +12,7 @@ const Danke = () => {
         alt="Tierheim mit Blumen"
       />
       <h2>Danke!</h2>
-      <p>Dank eurer tatkräftigen Unterstützung konnte das Tierheim mit folgenden Summen unterstützt werden.</p>
+      <p>Dank eurer tatkräftigen Unterstützung konnten wir mit unseren Partnerprogrammen folgende Summen erzielen:</p>
       <div className="spendenaufkommen">
         <h3>Januar bis Juli 2023</h3>
         <p>Einnahmen aus Spendenportalen und Aktionen:</p>

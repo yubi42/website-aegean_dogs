@@ -103,7 +103,7 @@ const Links = () => {
         </p>
         <p>
           Dann kontaktiert bitte unseren{" "}
-          <a href="mailto:webmaster@aegean-dogs.com">Webmaster</a>.
+          <a href="mailto:Elke.Boerner66@gmx.de">Webmaster</a>.
         </p>
       </div>
     </div>

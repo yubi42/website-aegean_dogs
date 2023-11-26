@@ -24,7 +24,7 @@ const HelfenSponsoring = () => {
       </div>
       <div className="sponsoring">
         <div style={{borderBottom: "none" }}>
-          <iframe
+          <a href="https://www.bildungsspender.de/412357002/spendenprojekt" target="_blank" rel="noopener noreferrer"><iframe
             src="https://www.bildungsspender.org/extern/bs/spendenstandbanner2.php?kt=412357002&amp;url=412357002"
             scrolling="no"
             width="150"
@@ -32,7 +32,7 @@ const HelfenSponsoring = () => {
             frameborder="0"
             title="Spendenstandbanner"
           >
-          </iframe>
+          </iframe></a>
           <div>
             <p>
               "Bildungsspender" ist Nachfolger von Boost. Hier können Sie direkt
@@ -49,7 +49,7 @@ const HelfenSponsoring = () => {
           </div>
         </div>
         <div>
-          <img src="/images/Gooding-Logo-Gross.png" alt="gooding logo" />
+          <a href="https://www.gooding.de/aegean-dogs-e-v-55715" target="_blank" rel="noopener noreferrer"><img src="/images/Gooding-Logo-Gross.png" alt="gooding logo" /></a>
           <div>
             <p>
             Funktioniert ähnlich wie boost - auch hier nehmen viele Shops dran teil. Vielleicht eine Alternative, wenn man bei boost nicht "das richtige" findet. 

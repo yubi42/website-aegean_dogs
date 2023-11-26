@@ -191,12 +191,19 @@ hr
 
 }
 
+.sponsoring > div > a
+{
+  margin: auto;
+  justify-self: center;
+}
+
 .sponsoring > div > iframe 
 {
   margin: auto;
   justify-self: center;
 }
-.sponsoring > div > img
+
+.sponsoring > div > a > img
 {
   width: 200px;
   margin: auto;
@@ -255,18 +262,30 @@ hr
 
 .berichte
 {
+  width: 70%;
   display: flex;
   gap: 10px;
   flex-direction: column;
 }
+.berichte > div
+{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.berichte > div > p
+{
+  color: #203743;
+}
 
-.berichte > a
+.berichte div > a
 {
   color: inherit;
+  width: 80%;
   text-decoration: none;
 }
 
-.berichte > a > p
+.berichte div > a > p
 {
   padding: 20px;
   background-color: #ffffff;
@@ -274,7 +293,7 @@ hr
   border-radius: 20px;
 }
 
-.berichte > a:hover > p
+.berichte div > a:hover > p
 {
   background-color:#9fcfe7;
   color: white;

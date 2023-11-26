@@ -36,7 +36,7 @@ const NavBar = () => {
         {showHelp && (<div>
             <Link to="spenden"><p>Spende</p></Link>
             <Link to="spenden-projekt"><p>Projektbezogene Spende</p></Link>
-            <Link to="werde-parte"><p>Partenschaft</p></Link>
+            <Link to="werde-parte"><p>Patenschaft</p></Link>
             <Link to="werde-mitglied"><p>Mitgliedschaft</p></Link>
             <Link to="sponsoring"><p>Sponsoring</p></Link>
             <Link to="wunschliste"><p>Wunschliste</p></Link>
