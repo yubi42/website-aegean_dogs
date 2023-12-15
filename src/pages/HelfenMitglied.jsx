@@ -18,14 +18,14 @@ const HelfenMitglied = () => {
      <div><h3>Unsere Beiträge</h3><p>(es handelt sich dabei um Mindestbeiträge)</p></div>
      <div className="mitgliedschaft">
          <div><p>Einzelpersonen unter 18 Jahre</p>
-         <p>15 Euro</p></div>
+         <p><b> 15 Euro</b></p></div>
          <div><p>Einzelpersonen ab 18 Jahre</p>
-         <p>50 Euro</p></div>
+         <p><b> 50 Euro</b></p></div>
          <div><p>Familien</p>
-         <p>70 Euro</p></div>
+         <p><b> 70 Euro</b></p></div>
          <div><p>Azubi, Rentner, Arbeitslose, Studenten<br />
 (mit entsprechendem Nachweis)</p>
-         <p>20 Euro</p></div>
+         <p><b> 20 Euro</b></p></div>
      </div>
      
       </div>

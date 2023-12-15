@@ -12,7 +12,6 @@ const HelfenPartenschaft = () => {
         alt="Tierheim mit Blumen"
       />
       <h2>So können Sie Pate werden:</h2>
-
       <div className="pate">
         <h3>Eine Patenschaft übernehmen für ein bestimmtes Tier</h3>
         <p>

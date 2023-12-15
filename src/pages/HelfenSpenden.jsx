@@ -25,13 +25,33 @@ const Helfen = () => {
       <hr />
 
       <div className="paypal">
-        <h3>Unser Paypal:</h3><div>
-        <table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/c2/webapps/mpp/home?locale.x=en_C2" title="PayPal" onclick="javascript:window.open('https://www.paypal.com/c2/webapps/mpp/home?locale.x=en_C2','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/C2/logos-buttons/optimize/Online_Primary_Acceptance_Mark_RGB_V2_medium.jpg" alt="PayPal" /></a></td></tr></table>
+        <h3>Unser Paypal:</h3>
         <div>
-          <p>
-            <b>jk.aegean.dogs@aol.de</b>
-          </p>
-          <p>Bitte an "Freunde" senden wegen der Gebühren.</p></div>
+          <table border="0" cellPadding="10" cellSpacing="0" align="center">
+            <tr>
+              <td align="center"></td>
+            </tr>
+            <tr>
+              <td align="center">
+                <a
+                  href="https://www.paypal.com/c2/webapps/mpp/home?locale.x=en_C2"
+                  title="PayPal"
+                  onClick="javascript:window.open('https://www.paypal.com/c2/webapps/mpp/home?locale.x=en_C2','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"
+                >
+                  <img
+                    src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/C2/logos-buttons/optimize/Online_Primary_Acceptance_Mark_RGB_V2_medium.jpg"
+                    alt="PayPal"
+                  />
+                </a>
+              </td>
+            </tr>
+          </table>
+          <div>
+            <p>
+              <b>jk.aegean.dogs@aol.de</b>
+            </p>
+            <p>Bitte an "Freunde" senden wegen der Gebühren.</p>
+          </div>
         </div>
       </div>
       <hr />

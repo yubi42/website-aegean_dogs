@@ -59,3 +59,20 @@ justify-content: center;
   .team-1 h2 {
 font-size: 2.0rem;
   }
+
+  @media (max-width: 760px)
+  {
+    .team-1
+    {
+      align-self: center;
+    }
+    .team-1 > div:last-child
+    {
+      display: none;
+    }
+    .team-1 > div
+    {
+      width: 100%;
+      align-self: center;
+    }
+  }

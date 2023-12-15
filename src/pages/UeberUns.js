@@ -1,5 +1,6 @@
 import { useLayoutEffect } from "react";
 import "./UeberUns.css";
+import "../App.css";
 
 const UeberUns = () => {
   useLayoutEffect(() => {
